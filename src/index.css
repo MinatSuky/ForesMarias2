@@ -1,0 +1,211 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* consejo */
+@media (max-width: 422px) {
+    .taitle{
+        font-size: 35px;
+    }
+    .nombre{
+        margin-top: 55%;
+       }
+        .nombre1{
+            font-size: 20px;
+        }
+}
+@media (max-width: 616px) and  (min-width: 422px) {
+    .nombre{
+     margin-top: 39%;
+    }
+     .nombre1{
+         font-size: 20px;
+     }
+ }
+ @media (max-width: 1272px){
+    .contenid{
+        display: contents;
+        text-align: center;
+        
+    }
+    .texto{
+        width: 98%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+ }
+@media (max-width: 760px) and (min-width: 616px){
+   .nombre{
+    margin-top: 25%;
+   }
+    .nombre1{
+        font-size: 20px;
+    }
+}
+@media (max-width: 1654px) and (min-width: 760px){
+    
+    .title{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .nombre{
+        margin-top: 22%;
+    }
+}
+@media (max-width:1654px) and (min-width:1278px){
+
+    .nombre{
+        margin-top: 16%;
+    }
+    
+}
+
+@media (max-width: 1566px){
+    .connt{
+     flex-direction: column;
+}
+.conn{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+}
+@media (max-width: 640px){
+    .perfil{
+     width: 90%;
+}
+
+
+.zper2{
+    font-size: 30px;
+}
+.zper3{
+    font-size: 30px;
+}
+}
+/* --------------------------------------------------------------------------------------------------------------- */
+/* nosotros */
+@media (max-width: 1392px) {
+    
+    .contenedor{
+        display: contents;
+    }
+    .connt{
+        width: 100%;
+    }
+}
+   /* --------------------------------------------------------------------------------------------------------------- */
+/* Administracion */
+@media (max-width: 1074px){
+    .perfil{
+     flex-direction: column;
+}
+
+.descrip{
+    flex-direction: column;
+}
+.z1{
+    width: 100%;
+}
+.z2{
+    width: 100%;
+}
+.zper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.zper2{
+    text-align: center;
+}
+}
+/* --------------------------------------------------------------------------------------------------------------- */
+/* comvocatorias */
+@media (max-width: 508px) {
+    .none{
+        font-size: 60%;
+    }
+}
+/* --------------------------------------------------------------------------------------------------------------- */
+/* trasporte */
+@media (max-width: 1000px) {
+    .contene{
+        flex-direction: row;
+    }
+}
+/* --------------------------------------------------------------------------------------------------------------- */
+/* Clases */
+@media (max-width: 1250px) {
+    .CONTAI{
+        flex-direction: column;
+    }
+    .con{
+        width: 100%;
+    }
+    .img65{
+        width: 100%;
+    }
+}
+
+.Flo{
+    font-family: "Lobster", sans-serif;
+}
+.barra{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+.cont:hover{
+    box-shadow: 7px 7px 14px 0px #a29e9e;
+}
+.shado{
+    box-shadow: 7px 7px 14px 0px #a29e9e;
+}
+.shado2{
+    filter: drop-shadow(
+        7px 7px 14px 0px #a29e9e
+    );
+}
+.sha{
+    border-radius: 57px 59px 15px 15px;
+}
+.sha2{
+    border-radius: 57px 15px 15px 15px;
+}
+.title{
+    font-family: "Arvo", serif;
+}
+.namess{
+    font-family: "PT Serif", serif;
+}
+.nanda{
+    font-family: "IBM Plex Sans", sans-serif;
+}
+.ime{
+    padding: 5px;
+    width: 387px;
+    object-fit: fill;
+}
+.shado1{
+    box-shadow: 5px 10px 13px 0px #b6b6b6;
+}
+.tai{
+    font-size: clamp(26px, 7vw, 155px);
+    background: linear-gradient(  to right, #004add 20%, #38b6ff 40%, #38b6ff 60%, #004add 80%);
+    background-size: 200%;
+    color: transparent;
+    background-clip: text;
+    animation: shine 6s linear infinite;    
+}
+.tai2{
+    font-size: clamp(26px, 7vw, 60px);
+}
+@keyframes shine {
+    to {
+        background-position: 200% center;
+    }
+}
+.floo{
+    background: linear-gradient(  to right, #004add 20%, #38b6ff 40%, #38b6ff 60%, #004add 80%);
+    background-size: 200%;
+    animation: shine 6s linear infinite;
+}
