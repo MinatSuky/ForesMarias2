@@ -16,28 +16,28 @@ export const Risp = ({ negacion, animate }) => {
                 {/* SECCION */}
                 <div className='mt-6 flex flex-col items-end mx-1'>
                     <p className='text-sky-400 font-semibold text-xl uppercase'>Flores de maria 2</p>
-                    <p className='text-white text-lg font-normal pl-10 pr-2  bg-gradient-to-l from-[#4a4a4a] rounded'> <Link to={'/Nosotros'}>Nosotros</Link></p>
-                    <p className='text-white text-lg font-normal pl-10 pr-2  bg-gradient-to-l from-[#4a4a4a] rounded mt-1 capitalize'><Link to={'/Administracion'}>administración</Link></p>
-                    <p className='text-white text-lg font-normal pl-10 pr-2  bg-gradient-to-l from-[#4a4a4a] rounded mt-1 capitalize'><Link to={'/Consejo'}>consejo de administración</Link></p>
-                    <p className='text-white text-lg font-normal pl-10 pr-2  bg-gradient-to-l from-[#4a4a4a] rounded mt-1 capitalize'><Link to={'/Convivencia'}>comite de convivencia</Link></p>
+                    <p className='text-white text-xl font-normal pl-10 pr-2 py-[3px]  bg-gradient-to-l from-[#4a4a4a] rounded'> <Link to={'/Nosotros'}>Nosotros</Link></p>
+                    <p className='text-white text-xl font-normal pl-10 pr-2 py-[3px] bg-gradient-to-l from-[#4a4a4a] rounded mt-1 capitalize'><Link to={'/Administracion'}>administración</Link></p>
+                    <p className='text-white text-xl font-normal pl-10 pr-2 py-[3px] bg-gradient-to-l from-[#4a4a4a] rounded mt-1 capitalize'><Link to={'/Consejo'}>consejo de administración</Link></p>
+                    <p className='text-white text-xl font-normal pl-10 pr-2 py-[3px] bg-gradient-to-l from-[#4a4a4a] rounded mt-1 capitalize'><Link to={'/Convivencia'}>comite de convivencia</Link></p>
                 </div>
                 
                 <div className='mt-4 flex flex-col items-end mx-1'>
                     <p className='text-sky-400 font-semibold text-xl uppercase'>gestiones</p>
-                    <p className='text-white text-lg font-normal pl-10 pr-2  bg-gradient-to-l from-[#4a4a4a] rounded capitalize'><Link to={'/comunidad'}>comunidad</Link></p>
-                    <p className='text-white text-lg font-normal pl-10 pr-2  bg-gradient-to-l from-[#4a4a4a] rounded mt-1 capitalize'><Link to={'/Combocatorias'}>convocatorias</Link></p>
-                    <p className='text-white text-lg font-normal pl-10 pr-2  bg-gradient-to-l from-[#4a4a4a] rounded mt-1 capitalize'><Link to={'/ZonaDePago'}>zona de pagos</Link></p>
-                    <p className='text-white text-lg font-normal pl-10 pr-2  bg-gradient-to-l from-[#4a4a4a] rounded mt-1 capitalize'><Link to={'/Documentos'}>solicitudes</Link></p>
+                    <p className='text-white text-xl font-normal pl-10 pr-2 py-[3px] bg-gradient-to-l from-[#4a4a4a] rounded capitalize'><Link to={'/comunidad'}>comunidad</Link></p>
+                    <p className='text-white text-xl font-normal pl-10 pr-2 py-[3px] bg-gradient-to-l from-[#4a4a4a] rounded mt-1 capitalize'><Link to={'/Combocatorias'}>convocatorias</Link></p>
+                    <p className='text-white text-xl font-normal pl-10 pr-2 py-[3px] bg-gradient-to-l from-[#4a4a4a] rounded mt-1 capitalize'><Link to={'/ZonaDePago'}>zona de pagos</Link></p>
+                    <p className='text-white text-xl font-normal pl-10 pr-2 py-[3px] bg-gradient-to-l from-[#4a4a4a] rounded mt-1 capitalize'><Link to={'/Documentos'}>solicitudes</Link></p>
                 </div>
                 <div className='mt-4 flex flex-col items-end mx-1'>
                     <p className='text-sky-400 font-semibold text-xl uppercase'>servicios</p>
-                    <p className='text-white text-lg font-normal pl-10 pr-2  bg-gradient-to-l from-[#4a4a4a] rounded capitalize'><Link to={'/Emprendimientos'}>emprendimientos</Link></p>
-                    <p className='text-white text-lg font-normal pl-10 pr-2  bg-gradient-to-l from-[#4a4a4a] rounded mt-1 capitalize'><Link to={'/Trasporte'}>trasporte</Link></p>
+                    <p className='text-white text-xl font-normal pl-10 pr-2 py-[3px] bg-gradient-to-l from-[#4a4a4a] rounded capitalize'><Link to={'/Emprendimientos'}>emprendimientos</Link></p>
+                    <p className='text-white text-xl font-normal pl-10 pr-2 py-[3px] bg-gradient-to-l from-[#4a4a4a] rounded mt-1 capitalize'><Link to={'/Trasporte'}>trasporte</Link></p>
                 </div>
                 <div className='mt-4 flex flex-col items-end mx-1'>
                     <p className='text-sky-400 font-semibold text-xl uppercase'>actividades</p>
-                    <p className='text-white text-lg font-normal pl-10 pr-2  bg-gradient-to-l from-[#4a4a4a] rounded capitalize'><Link to={'/Clases-aerobicas'}>clases aerobicas</Link></p>
-                    <p className='text-white text-lg font-normal pl-10 pr-2  bg-gradient-to-l from-[#4a4a4a] rounded mt-1 capitalize'><Link to={'/Futbol'}>Fútbol</Link></p>
+                    <p className='text-white text-xl font-normal pl-10 pr-2 py-[3px] bg-gradient-to-l from-[#4a4a4a] rounded capitalize'><Link to={'/Clases-aerobicas'}>clases aerobicas</Link></p>
+                    <p className='text-white text-xl font-normal pl-10 pr-2 py-[3px] bg-gradient-to-l from-[#4a4a4a] rounded mt-1 capitalize'><Link to={'/Futbol'}>Fútbol</Link></p>
                 </div>
             </div>
         </div>
