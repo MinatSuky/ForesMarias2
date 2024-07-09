@@ -40,6 +40,7 @@ export const Combo = () => {
 
                 </article>
             </section>
+            
         </div>
     )
 }

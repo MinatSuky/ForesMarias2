@@ -33,6 +33,16 @@
         margin-top: 5%;
         margin-bottom: 5%;
     }
+    .xX{
+        margin-top: 0;
+     }
+    .xx{
+        display: none;
+    }
+    .xxx{
+        display: block;
+        color: black;
+    }
  }
 @media (max-width: 760px) and (min-width: 616px){
    .nombre{
@@ -40,6 +50,16 @@
    }
     .nombre1{
         font-size: 20px;
+    }
+    .xX{
+       margin-top: 0;
+    }
+    .xx{
+        display: none;
+    }
+    .xxx{
+        display: block;
+        color: black;
     }
 }
 @media (max-width: 1654px) and (min-width: 760px){
@@ -49,14 +69,16 @@
         margin-bottom: 20px;
     }
     .nombre{
-        margin-top: 22%;
+        margin-top: 25%;
     }
+    
 }
 @media (max-width:1654px) and (min-width:1278px){
 
     .nombre{
         margin-top: 16%;
     }
+    
     
 }
 
@@ -209,3 +231,5 @@
     background-size: 200%;
     animation: shine 6s linear infinite;
 }
+
+  
