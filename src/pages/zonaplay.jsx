@@ -7,7 +7,7 @@ export const Pay = () => {
             <Nav />
             <section class="px-[15%] mt-[8%]">
                 <h4 class="font-bold text-[40px] text-center">Zona De Pagos</h4>
-                <p class="text-[20px] text-center mb-[5%]">A continuación encontrará los enlaces para realizar pagos en línea de empresas
+                <p class="text-[1.3rem] text-center mb-[5%]">A continuación encontrará los enlaces para realizar pagos en línea de empresas
                     que actualmente prestan
                     servicios públicos en el Conjunto Cerrado <br /> <samp className="Flo text-3xl"> Flores de Maria 2</samp></p>
 
@@ -15,8 +15,8 @@ export const Pay = () => {
                 <div class="flex flex-col sm:flex-row  justify-center gap-4">
 
                     <div class="sm:w-[45%] flex flex-col justify-between p-4 shadow text-center hover:shadow-2xl rounded-xl cursor-default border">
-                        <h4 class="font-bold text-[20px]">PAGAR ADMINISTRACIÓN JELPIT</h4>
-                        <p class="text-[15px] mb-[5%]">A través del siguiente enlace será dirigido a la página web de la jelpit
+                        <h4 class="font-bold text-[1.4rem]">PAGAR ADMINISTRACIÓN JELPIT</h4>
+                        <p class="text-[1.3rem] mb-[5%]">A través del siguiente enlace será dirigido a la página web de la jelpit
                             para el pago de la
                             administración</p>
                         <p className="text-[14px] md:text-[17px] py-3 px-4 text-white rounded-lg bg-[#4C9EEB] cursor-pointer text-center">
@@ -26,8 +26,8 @@ export const Pay = () => {
                     </div>
 
                     <div class="sm:w-[45%] flex flex-col justify-between p-4 shadow text-center  rounded-xl hover:shadow-2xl bg-[#4C9EEB] cursor-default">
-                        <h4 class="font-bold text-[20px] text-white">¿¿ COMO PAGAR ??</h4>
-                        <p class="text-[15px] mb-[5%] text-white">El enlace brinda instrucciones claras para realizar un pago
+                        <h4 class="font-bold text-[1.4rem] text-white">¿¿ COMO PAGAR ??</h4>
+                        <p class="text-[1.3rem] mb-[5%] text-white">El enlace brinda instrucciones claras para realizar un pago
                             satisfactorio, asegurando una experiencia sin complicaciones.</p>
                         <p className="text-[14px] md:text-[17px] py-3 px-4 text-[#4C9EEB] font-semibold rounded-lg cursor-pointer bg-[#ffffff]">
                         <a href="https://drive.google.com/file/d/1iABcjvugEAj3v8KLXQqByS1zGJaQ9LCd/view?usp=sharing"

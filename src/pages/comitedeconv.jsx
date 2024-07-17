@@ -9,7 +9,7 @@ export const Convi = () => {
                 <article class="sm:mx-[10%]">
                     <h3 class="font-bol text-[3rem] text-center font-bold">Comité De Convivencia</h3>
 
-                    <div className="text-center mx-5">
+                    <div className="text-center mx-5 text-xl">
                         <p class="p-4">La finalidad del Comité de Convivencia es intentar presentar fórmulas de arreglo orientadas a dirimir los conflictos y a fortalecer las relaciones de vecindad. Este grupo de personas nombrado por la Asamblea General de Copropietarios, no tiene como función imponer multas, sino que por medio de mecanismos conciliatorios hagan llegar a las partes a un acuerdo para la no alteración de la convivencia y la función social que tiene la copropiedad.
 
 

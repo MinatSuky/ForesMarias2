@@ -25,17 +25,17 @@ export const Futbol = () => {
 
                     <div>
                         <div className="mt-40 w-full flex justify-center">
-                            <img className="rounded-xl w-[80%] h-[750px]" src={img2} alt="" />
+                            <img className="rounded-xl " src={img2} alt="" />
                         </div>
-                        <div>
-                            <p className="text-xl text-center mt-16">
+                        <div className="mx-3">
+                            <p className="text-[1.3rem] text-center mt-16">
                                 ¡Invitamos a todos los vecinos del conjunto flores de maría 2, a participar en los partidos de fútbol que se realizarán los días martes y jueves a las 9:00 p.m. en la cancha sintética del barrio
                                 El fútbol es un deporte rápido y emocionante que es ideal para todas las edades y niveles de habilidad. Es una excelente manera de hacer ejercicio, divertirse y conocer a nuevos vecinos.
                                 Los partidos son gratuitos y abiertos a todos los interesados. Escribanos al 3188077430 y únase al juego.
                             </p>
                             <hr className="mt-5" />
                             <p className="text-xl mt-5"><b>¿Por qué deberías participar?</b></p>
-                            <p className="mt-5 text-xl text-center">
+                            <p className="mt-5 text-[1.3rem] text-center">
                                 ¡Es una excelente manera de hacer ejercicio! El fútbol es un deporte muy activo que puede
                                 ayudarte a quemar calorías y mejorar tu condición física.
                                 ¡Es divertido! El fútbol es un juego emocionante que te hará sudar y reír.
@@ -44,52 +44,20 @@ export const Futbol = () => {
                             </p>
                             <hr className="mt-5" />
                             <p className="text-xl mt-5"><b>¿Qué necesitas para participar?</b></p>
-                            <p className="mt-5 text-xl">
+                            <p className="mt-5 text-[1.3rem]">
                             Solo necesitas un par de zapatos deportivos y ropa cómoda. <br/>
                             Si tienes un balón de fútbol, puedes llevarlo contigo. Si no, no te preocupes, habrá balones
                             disponibles en la cancha.
                             ¡Te esperamos!
                             </p>
                         </div>
-                        {/* <div class="flex bg-[#4C9EEB]">
-
-                    <div class="p-4 text-[1.3rem]">
-                        <img src="../static/paguinas/Equipo de futbol.jpg" alt="" class="float-left md:w-[50%] p-4"/>
-                        <p>¡Invitamos a todos los vecinos del conjunto flores de maría 2, a participar en los partidos
-                            de fútbol que se realizarán los días martes y jueves a las 9:00 p.m. en la cancha sintética
-                            del barrio <br/>
-                            El fútbol es un deporte rápido y emocionante que es ideal para todas las edades y niveles de
-                            habilidad. Es una excelente manera de hacer ejercicio, divertirse y conocer a nuevos
-                            vecinos. <br/>
-
-                            Los partidos son gratuitos y abiertos a todos los interesados. Escribanos al 3188077430 y
-                            únase al juego. <br/><br/>
-
-                            <b>¿Por qué deberías participar?</b> <br/><br/>
-
-                            ¡Es una excelente manera de hacer ejercicio! El fútbol es un deporte muy activo que puede
-                            ayudarte a quemar calorías y mejorar tu condición física.
-                            ¡Es divertido! El fútbol es un juego emocionante que te hará sudar y reír. <br/><br/>
-                            ¡Es una oportunidad para conocer a nuevos vecinos! El fútbol es una gran manera de hacer
-                            amigos y crear una comunidad. <br/><br/>
-                            <b>¿Qué necesitas para participar?</b> <br><br>
-
-                            Solo necesitas un par de zapatos deportivos y ropa cómoda. <br/>
-                            Si tienes un balón de fútbol, puedes llevarlo contigo. Si no, no te preocupes, habrá balones
-                            disponibles en la cancha.
-                            ¡Te esperamos!
-                        </p>
-                        <a href="https://wa.me/573188077430" target="_blank"
-                            class="py-1 px-3 text-[#4C9EEB] rounded-full bg-white"/> <i
-                                class="fa-brands fa-whatsapp"/></i> MAS INFO 318 807 7430</a>
-                    </div>
-                </div> */}
+                       
                     </div>
                 </article>
             </section>
 
 
-            <footer class="text-center text-white bg-[#4C9EEB] py-5 mt-[5%]">
+            <footer class="text-center text-white bg-[#4C9EEB] py-5 mt-[15%]">
                 <p>© Copyright 2023 - 2024 | Conjunto Cerrado Flores De Maria 2 | All Rights Reserved</p>
             </footer>
         </div>

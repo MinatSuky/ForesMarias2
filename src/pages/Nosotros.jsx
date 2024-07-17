@@ -20,7 +20,7 @@ export const Noso = () => {
                         </div>
                             <div className="w-[50%] connt">
                            
-                            <p class="p-4 text-center font-medium">Flores de María 2 es un proyecto de casas y apartamentos en conjunto cerrado, que
+                            <p class="p-4 text-center font-medium text-[1.3rem]">Flores de María 2 es un proyecto de casas y apartamentos en conjunto cerrado, que
                                 busca proporcionar a sus habitantes bienestar, seguridad y comodidad, mediante la creación de
                                 ambientes urbanos amplios, agradables y de fácil accesibilidad. El proyecto se conforma de casas
                                 unifamiliares y tres bloques de apartamentos de 4 pisos sin ascensor. Contará con dos salones

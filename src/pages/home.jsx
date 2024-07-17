@@ -26,8 +26,8 @@ export const Home = () => {
             <section>
                 <article>
                     <div class="px-[10%]">
-                        <h5 class="font-bold text-center py-3 text-[30px] sm:text-[50px] lg:text-[69px] xl:text-[84px] text-[#4C9EEB]">Descripción Del Conjunto <br /> Cerrado </h5>
-                        <p class="text-[18px] flex flex-col items-center text-2xl">Flores de María 2 es un proyecto de casas y apartamentos en conjunto cerrado, que
+                        <h5 class="font-bold text-center py-3 text-[2.5rem] sm:text-[50px] lg:text-[69px] xl:text-[84px] text-[#4C9EEB]">Descripción Del Conjunto <br /> Cerrado </h5>
+                        <p class="text-[1.3rem] text-center flex flex-col items-center">Flores de María 2 es un proyecto de casas y apartamentos en conjunto cerrado, que
                             busca proporcionar a sus habitantes bienestar, seguridad y comodidad, mediante la creación de
                             ambientes urbanos amplios, agradables y de fácil accesibilidad. El proyecto se conforma de casas
                             unifamiliares y tres bloques de apartamentos de 4 pisos sin ascensor. Contará con dos salones
@@ -55,7 +55,7 @@ export const Home = () => {
                                 </figure>
                             </div>
                             <h5 class="text-[2rem] font-bold text-center">COMUNIDAD</h5>
-                            <p class="text-center">En este espacio se pueden encontrar anuncios de interés para los residentes
+                            <p class="text-center text-[1.2rem]">En este espacio se pueden encontrar anuncios de interés para los residentes
                                 de la comunidad Flores de María 2</p>
                         </Link>
                     </div>
@@ -69,7 +69,7 @@ export const Home = () => {
                                 </svg>
                             </figure>
                             <h5 class="text-[2rem] font-bold text-center">ZONA DE PAGOS</h5>
-                            <p class="text-center">Según el Artículo 29 de la Ley 675 de 2001, en propiedad horizontal, los
+                            <p class="text-center text-[1.2rem]">Según el Artículo 29 de la Ley 675 de 2001, en propiedad horizontal, los
                                 copropietarios están
                                 obligados a contribuir a las expensas necesarias para la administración y servicios comunes
                                 esenciales.</p>
@@ -88,7 +88,7 @@ export const Home = () => {
                                 </svg>
                             </figure>
                             <h5 class="text-[2rem] font-bold text-center">SOLICITUDES Y DOCUMENTOS</h5>
-                            <p class="text-center">
+                            <p class="text-center text-[1.2rem]">
                                 Este apartado presenta diversos formatos para cubrir solicitudes en la copropiedad, garantizando
                                 eficiencia y cumplimiento de normativas.</p>
                         </Link>
@@ -155,10 +155,10 @@ export const Home = () => {
                 </div>
                 <article class="p-5 justify-center px-[10%]">
                     <div class="">
-                        <p class="text-[18px]">Para llegar al conjunto <b>FLORES DE MARIA 2</b>, que esta ubicado en la
+                        <p class="text-[1.7rem]">Para llegar al conjunto <b>FLORES DE MARIA 2</b>, que esta ubicado en la
                             <b>Carrera 43 # 16 BIS – 146 en Valledupar</b>, Colombia, siga estas instrucciones:
                         </p>
-                        <ol class="list-decimal p-4">
+                        <ol class="list-decimal p-4 text-[1.3rem]">
                             <li>Tome la vía que va hacia el corregimiento La Mesa.</li>
                             <li>Justo una cuadra después del parque de Don Alberto, gire a la izquierda.</li>
                             <li>Siga derecho por la calle pavimentada hasta que vea la parroquia Nuestra Señora de las

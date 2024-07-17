@@ -19,7 +19,7 @@ export const Admi = () => {
                            
                             <div className="descrip flex w-[90%] rounded-3xl mt-5">
                                <div className="z1 w-[50%]">
-                               <p class="p-4 flex flex-col font-medium text-lg"><p>El administrador de Flores de Maria. es el representante legal del Conjunto Cerrado Flores de
+                               <p class="p-4 flex flex-col font-medium text-xl"><p>El administrador de Flores de Maria. es el representante legal del Conjunto Cerrado Flores de
                                 maria 2 y cuenta con la potestad para ejecutar, representar, conservar y recaudar de acuerdo a
                                 las disposiciones legales y tiene estas atribuciones y funciones derivadas de su ejercicio
                                 personal y bajo su responsabilidad.</p> <br />
@@ -31,7 +31,7 @@ export const Admi = () => {
                                     </p>
                                </div>
                                <div className="z2 w-[50%]">
-                               <p class="p-4 font-medium text-lg">
+                               <p class="p-4 font-medium text-xl">
                                                     Con una combinación única de creatividad y liderazgo innato, nuestra administradora es
                                                     la personificación de la excelencia en la gestión de propiedades. Su aguda capacidad
                                                     analítica y profundo conocimiento en legislación de propiedad horizontal la posicionan
