@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom"
 import { Enca } from "../componetes/encabezado"
-import logo from "../assets/logos/logo.png"
+
 import { Nav } from "../componetes/nav"
+import { Footer } from "../componetes/footer"
 
 
 
@@ -179,8 +180,7 @@ export const Home = () => {
             </section>
             <section>
                 <article class="flex flex-col justify-center p-2">
-                    <h5 class="font-bold text-center py-3 text-[3rem] text-[#4C9EEB]">Recorre Flores de María 2 <i
-                        class="fa-solid fa-camera-retro"></i></h5>
+                    <h5 class="font-bold text-center py-3 text-[3rem] text-[#4C9EEB] flex justify-center items-center gap-6">  Recorre Flores de María 2 <samp><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 1024 704"><path fill="#0284c7" d="M960 704H64q-26 0-45-19T0 640V128q0-27 19-45.5T64 64h384q0-27 18.5-45.5T512 0h320q26 0 45 18.5T896 64h64q26 0 45 18.5t19 45.5v512q0 27-18.5 45.5T960 704M320 192q-80 0-136 56t-56 135.5t56 136T320 576t136-56.5t56-136T456 248t-136-56M768 64H576q-13 0-22.5 9.5T544 96t9.5 22.5T576 128h192q13 0 22.5-9.5T800 96t-9.5-22.5T768 64M320 512q-53 0-90.5-37.5T192 384t37.5-90.5T320 256t90.5 37.5T448 384t-37.5 90.5T320 512"/></svg></samp></h5>
                     <div class="flex justify-center">
                         <iframe width="1100" height="515"
                             src="https://www.youtube.com/embed/ZPFdOzjtGPs?si=SvlRgHt-y_cjW4eC&amp;start=40"
@@ -190,33 +190,9 @@ export const Home = () => {
                     </div>
                 </article>
             </section>
-            <footer class="mt-[10%] hidden lg:block">
-                <div class="p-[50px] flex justify-between">
-                    <div class="w-[33%] flex-colum aligh-center text-center">
-                        <figure class="flex flex-col justify-center"><img src={logo} alt="" class="w-[30%] mb-[5%]" />
-                            <div>
-                                <p className="bg-[#4C9EEB] w-fit shadow-lg shadow-blue-500/100 p-3 rounded-lg"><a href="https://web-conjuntos.jelpit.com/zona-publica-pagos?_ga=2.123618891.1946377582.1700225843-419690911.1698957252"
-                                    target="_blank" class="py-1 px-2 text-white rounded-lg bg-[#4C9EEB]  sm:text-[16px] md:text-[16px] lg:text-[16px] xl:text-[16px]">$ PAGAR ADMINISTRACIÓN</a></p>
-                            </div>
-                        </figure>
+            
 
-                    </div>
-
-                    <div class="w-[33%]">
-                        <h4 class="font-bold text-[25px] text-[#02519C]">CONTÁCTENOS</h4>
-                        <ul>
-                            <li><a href="https://wa.me/573142915857" target="_blank" class="text-[18px] hover:text-[#02519C]"> 314 291 5857</a></li>
-                            <li><a href="#" class="text-[18px] hover:text-[#02519C]">conjuntocerradofloresdemaria2@gmail.com</a></li>
-                            <li><a href="https://wa.me/573172794002" target="_blank" class="text-[18px] hover:text-[#02519C]"> Portería: 317 279 4002</a></li>
-                            <li><a href="https://maps.app.goo.gl/arjLs3WhgYWPr6Hu8" target="_blank" class="text-[18px] hover:text-[#02519C]"> Carrera 43 # 16 bis-146</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </footer>
-
-            <div class="text-center sm:text-sm text-white bg-[#4C9EEB] py-5 px-2">
-                <p>© Copyright 2023 - 2024 | Conjunto Cerrado Flores De Maria 2 | All Rights Reserved</p>
-            </div>
+            <Footer />
 
             <script src="./src/js/vendor/main.js" type="module"></script>
             <script src="./src/js/vendor/lightbox-plus-jquery.min.js"></script>

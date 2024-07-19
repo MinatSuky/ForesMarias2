@@ -20,8 +20,8 @@ export const Pay = () => {
                             para el pago de la
                             administración</p>
                         <p className="text-[14px] md:text-[17px] py-3 px-4 text-white rounded-lg bg-[#4C9EEB] cursor-pointer text-center">
-                        <a href="https://web-conjuntos.jelpit.com/zona-publica-pagos?_ga=2.123618891.1946377582.1700225843-419690911.1698957252"
-                            target="_blank" >$ PAGAR ADMINISTRACIÓN</a>
+                            <a href="https://web-conjuntos.jelpit.com/zona-publica-pagos?_ga=2.123618891.1946377582.1700225843-419690911.1698957252"
+                                target="_blank" >$ PAGAR ADMINISTRACIÓN</a>
                         </p>
                     </div>
 
@@ -30,9 +30,9 @@ export const Pay = () => {
                         <p class="text-[1.3rem] mb-[5%] text-white">El enlace brinda instrucciones claras para realizar un pago
                             satisfactorio, asegurando una experiencia sin complicaciones.</p>
                         <p className="text-[14px] md:text-[17px] py-3 px-4 text-[#4C9EEB] font-semibold rounded-lg cursor-pointer bg-[#ffffff]">
-                        <a href="https://drive.google.com/file/d/1iABcjvugEAj3v8KLXQqByS1zGJaQ9LCd/view?usp=sharing"
-                            target="_blank" class=""><i
-                                class="fa-solid fa-circle-info"></i> INSTRUCTIVO DE PAGO</a>
+                            <a href="https://drive.google.com/file/d/1iABcjvugEAj3v8KLXQqByS1zGJaQ9LCd/view?usp=sharing"
+                                target="_blank" class=""><i
+                                    class="fa-solid fa-circle-info"></i> INSTRUCTIVO DE PAGO</a>
                         </p>
                     </div>
 
@@ -82,10 +82,10 @@ export const Pay = () => {
 
             </section>
             <footer class="mt-[5%]">
-                                <div class="text-center sm:text-sm text-white bg-[#4C9EEB] py-5 px-2">
-                                    <p>© Copyright 2023 - 2024 | Conjunto Cerrado Flores De Maria 2 | All Rights Reserved</p>
-                                </div>
-                            </footer>
+                <div class="text-center sm:text-sm text-white bg-[#4C9EEB] py-5 px-2">
+                    <p>© Copyright 2023 - 2024 | Conjunto Cerrado Flores De Maria 2 | All Rights Reserved</p>
+                </div>
+            </footer>
         </div>
     )
 }

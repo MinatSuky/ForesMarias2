@@ -1,4 +1,4 @@
-/* En tu archivo CSS, por ejemplo, styles.css */
+
 @keyframes slideInRight {
     from {
       transform: translateX(100%);
@@ -12,5 +12,12 @@
   
   .slide-in-right {
     animation: slideInRight 0.3s ease-out forwards;
+  }
+  .FLECHITA{
+    rotate: -180deg;
+  }
+  .encabezado:hover .FLECHITA{
+    rotate: -90deg;
+    margin-bottom: 8px;
   }
   

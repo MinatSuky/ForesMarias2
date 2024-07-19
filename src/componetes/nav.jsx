@@ -26,18 +26,18 @@ export const Nav = () => {
                             <ul id="dropdownmenu" className="menu  text-right flex-col sm:flex-row sm:flex">
 
 
-                                <li class="text-black sm:w-[170px] lg:w-[200px] xl:w-[250px] relative  hover:text-[whit] group/drop ease-in-out duration-200 mb-3 encabezado ">
+                                <li class="text-black sm:w-[170px] lg:w-[200px] xl:w-[250px] relative  hover:text-[whit] group/drop ease-in-out duration-200 mb-3 encabezado">
                                     <div className=" rounded-md ">
-                                        <div className="flex justify-end items-center font-bold  rounded-lg  cursor-default ">
-                                            <p className="sm:text-[10px] lg:text-[12px] xl:text-[16px] "><span className="flex items-center">FLORES DE MARIA 2
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="45" height="30" viewBox="0 0 24 24"><path fill="blue" d="m11.565 13.873l-2.677-2.677q-.055-.055-.093-.129q-.037-.073-.037-.157q0-.168.11-.289q.112-.121.294-.121h5.677q.181 0 .292.124t.111.288q0 .042-.13.284l-2.677 2.677q-.093.093-.2.143t-.235.05t-.235-.05t-.2-.143" /></svg></span></p>
+                                        <div className="flex justify-end items-center font-bold  rounded-lg  cursor-default">
+                                            <p className="sm:text-[10px] lg:text-[12px] xl:text-[16px] "><span className="flex items-center gap-2">FLORES DE MARIA 2
+                                            <svg className="FLECHITA duration-200 ease-in-out" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="blue" d="M10 22L0 12L10 2l1.775 1.775L3.55 12l8.225 8.225z"/></svg></span></p>
                                             
                                         </div>
 
                                         <div>
                                             
-                                            <ul id="Submenu" class="left-0 top-[35px] hidden group-hover/drop:block ease-in-out duration-300">
-                                                <li class="py-1 text-black sm:text-[10px] lg:text-[12px] xl:text-[16px] px-2 hover:text-[#02519C] hover:font-bold"><Link to={'/Nosotros'}>NOSOTROS</Link></li>
+                                            <ul id="Submenu" class="left-0 top-[35px] hidden group-hover/drop:block ">
+                                                <li class="py-1 encabezado text-black sm:text-[10px] lg:text-[12px] xl:text-[16px] px-2 hover:text-[#02519C] hover:font-bold"><Link to={'/Nosotros'}>NOSOTROS</Link></li>
                                                 <li class="py-1 text-black  sm:text-[10px] lg:text-[12px] xl:text-[16px] px-2 hover:text-[#02519C] hover:font-bold"><Link to={'/Administracion'}>ADMINISTRACIÓN</Link></li>
                                                 <li class="py-1 text-black sm:text-[10px] lg:text-[12px] xl:text-[16px] hover:text-[#02519C] hover:font-bold"><Link to={'/Consejo'}>CONSEJO DE ADMINISTRACIÓN</Link></li>
                                                 <li class="py-1 text-black sm:text-[10px] lg:text-[12px] xl:text-[16px] px-2 hover:text-[#02519C] hover:font-bold"><Link to={'/Convivencia'}>COMITE DE CONVIVENCIA</Link></li>
@@ -50,8 +50,8 @@ export const Nav = () => {
                                 <li class="text-white  sm:w-[100px] lg:w-[auto] xl:w-[150px] sm:text-black relative group/drop mb-3 encabezado "><a
                                     href="#" class="font-bold">
                                     <div className="flex justify-end items-center">
-                                        <p className="sm:text-[10px] lg:text-[12px] xl:text-[16px] ">GESTIONES</p>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="blue" d="m11.565 13.873l-2.677-2.677q-.055-.055-.093-.129q-.037-.073-.037-.157q0-.168.11-.289q.112-.121.294-.121h5.677q.181 0 .292.124t.111.288q0 .042-.13.284l-2.677 2.677q-.093.093-.2.143t-.235.05t-.235-.05t-.2-.143" /></svg>             
+                                    <p className="sm:text-[10px] lg:text-[12px] xl:text-[16px] "><span className="flex items-center gap-2">GESTIONES
+                                    <svg className="FLECHITA duration-200 ease-in-out" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="blue" d="M10 22L0 12L10 2l1.775 1.775L3.55 12l8.225 8.225z"/></svg></span></p>
                                     </div>
                                 </a>
                                     <ul id="Submenu" class="left-0 top-[35px] hidden group-hover/drop:block">
@@ -66,8 +66,8 @@ export const Nav = () => {
                                 <li class="w-[100px] lg:w-[100px] xl:w-[150px] sm:text-black relative encabezado group/drop mb-3"><a
                                     href="#" class="font-bold ">
                                     <div className="flex justify-end items-center">
-                                        <p className="sm:text-[10px] lg:text-[12px] xl:text-[16px] ">SERVICIOS</p>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="blue" d="m11.565 13.873l-2.677-2.677q-.055-.055-.093-.129q-.037-.073-.037-.157q0-.168.11-.289q.112-.121.294-.121h5.677q.181 0 .292.124t.111.288q0 .042-.13.284l-2.677 2.677q-.093.093-.2.143t-.235.05t-.235-.05t-.2-.143" /></svg>
+                                    <p className="sm:text-[10px] lg:text-[12px] xl:text-[16px] "><span className="flex items-center gap-2">SERVICIOS
+                                    <svg className="FLECHITA duration-200 ease-in-out" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="blue" d="M10 22L0 12L10 2l1.775 1.775L3.55 12l8.225 8.225z"/></svg></span></p>
                                     </div>
                                 </a>
                                     <ul id="Submenu" class="left-0 top-[35px] hidden group-hover/drop:block text-right">
@@ -79,8 +79,8 @@ export const Nav = () => {
                                 <li class="w-[100px] lg:w-[150px] xl:w-[160px] sm:text-black relative encabezado group/drop mb-3"><a
                                     href="#" class="font-bold">
                                     <div className="flex justify-end items-center">
-                                        <p className="sm:text-[10px] lg:text-[12px] xl:text-[16px] ">ACTIVIDADES</p>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="blue" d="m11.565 13.873l-2.677-2.677q-.055-.055-.093-.129q-.037-.073-.037-.157q0-.168.11-.289q.112-.121.294-.121h5.677q.181 0 .292.124t.111.288q0 .042-.13.284l-2.677 2.677q-.093.093-.2.143t-.235.05t-.235-.05t-.2-.143" /></svg>
+                                    <p className="sm:text-[10px] lg:text-[12px] xl:text-[16px] "><span className="flex items-center gap-2">AVTIVIDADES
+                                    <svg className="FLECHITA duration-200 ease-in-out" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="blue" d="M10 22L0 12L10 2l1.775 1.775L3.55 12l8.225 8.225z"/></svg></span></p>
                                     </div>
                                 </a>
                                     <ul id="Submenu" class="left-0 top-[35px] hidden group-hover/drop:block text-right">
